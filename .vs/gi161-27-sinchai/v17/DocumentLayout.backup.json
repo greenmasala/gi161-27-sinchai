@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity\\Unity Projects\\gi161-27-sinchai\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48215AE2-D3E4-088C-B419-7B21C1E9D04E}|Assembly-CSharp.csproj|d:\\unity\\unity projects\\gi161-27-sinchai\\assets\\myscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48215AE2-D3E4-088C-B419-7B21C1E9D04E}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48215AE2-D3E4-088C-B419-7B21C1E9D04E}|Assembly-CSharp.csproj|d:\\unity\\unity projects\\gi161-27-sinchai\\assets\\myscripts\\cow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48215AE2-D3E4-088C-B419-7B21C1E9D04E}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\cow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48215AE2-D3E4-088C-B419-7B21C1E9D04E}|Assembly-CSharp.csproj|d:\\unity\\unity projects\\gi161-27-sinchai\\assets\\myscripts\\chicken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48215AE2-D3E4-088C-B419-7B21C1E9D04E}|Assembly-CSharp.csproj|solutionrelative:assets\\myscripts\\chicken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cow.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Projects\\gi161-27-sinchai\\Assets\\MyScripts\\Cow.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\Cow.cs",
+              "ToolTip": "D:\\Unity\\Unity Projects\\gi161-27-sinchai\\Assets\\MyScripts\\Cow.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\Cow.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:29:09.709Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Chicken.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Projects\\gi161-27-sinchai\\Assets\\MyScripts\\Chicken.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\Chicken.cs",
+              "ToolTip": "D:\\Unity\\Unity Projects\\gi161-27-sinchai\\Assets\\MyScripts\\Chicken.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\Chicken.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:29:11.902Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\Unity\\Unity Projects\\gi161-27-sinchai\\Assets\\MyScripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MyScripts\\GameManager.cs",
+              "ToolTip": "D:\\Unity\\Unity Projects\\gi161-27-sinchai\\Assets\\MyScripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\MyScripts\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T14:26:21.201Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,32 +1,46 @@
+using OpenCover.Framework.Model;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour  
+public class GameManager : MonoBehaviour
 {
-    Chicken chicken = new Chicken("KFC", 10, 5); 
-    Cow cow = new Cow("Burger King", 5, -10);
-
+    public Chicken chicken;
+    public Cow cow;
+    public Pig pig;
+    public List<Animal> animals = new List<Animal>();
+ 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Debug.Log($"Welcome to the farm! We currently only got {chicken.Name} the chicken and {cow.Name} the cow.");
-        cow.GetStatus();
-        cow.AdjustHappiness(10);
-        cow.AdjustHunger(-10);
-        cow.GetStatus();
-        cow.MakeSound();
-        cow.Feed("Steak");
-        cow.GetStatus();
+        chicken.Init("KFC", 10, 5);
+        cow.Init("Burger King", 15, 25);
+        pig.Init("Porkshop", 15, 3);
+        animals.Add(chicken);
+        animals.Add(cow);
+        animals.Add(pig);
+
+        Debug.Log($"Welcome to the farm! There are {animals.Count} animals here!");
+
+        foreach (Animal animal in animals)
+        {
+            animal.GetStatus();
+        }
+
+        foreach (Animal animal in animals)
+        {
+            animal.MakeSound("");
+            animal.Feed(5);
+        }
+
+        chicken.Feed("fried chicken", 10);
+        chicken.Sleep();
+        chicken.GetStatus();
+
+        cow.Feed("grass", 5);
         cow.Moo();
         cow.GetStatus();
 
-        chicken.GetStatus();
-        chicken.AdjustHappiness(-5);
-        chicken.AdjustHunger(10);
-        chicken.GetStatus();
-        chicken.MakeSound();
-        chicken.Feed("Fried chicken");
-        chicken.GetStatus();
-        chicken.Sleep();
-        chicken.GetStatus();
+        pig.Feed("porkshop", 15);
+        pig.GetStatus();
     }
 }
